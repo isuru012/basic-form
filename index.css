@@ -1,0 +1,25 @@
+.table, th, td {
+    border: 1px solid black;
+    border-collapse: separate;
+
+    padding: 8px;
+  }
+.tr{
+    outline: thin solid bl;
+}
+.col1{
+    background-color: rgb(255, 255, 255);
+}
+.col2{
+    background-color: yellow;
+}
+.col3{
+    background-color: yellow;
+
+}
+.col4{
+    background-color: green;
+}
+.col5{
+    background-color: red;
+}

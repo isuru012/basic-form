@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Customer Registration Form</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="Fname">First Name:</label>
+        <input type="text" id="Fname" name="name"><br>
+        <br>
+
+        <label for="Lname">Last Name:</label>
+        <input type="text" id="Lname" name="name"><br>
+        <br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br>
+        <br>
+
+        <label for="phone">TelePhone Number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br>
+        <br>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="address"><br>
+        <br>
+
+
+        <label for="picture">Upload Picture:</label>
+        <input type="file" id="picture" name="picture"><br>
+        <br>
+
+        <label for="picture">Skin Colour: </label>
+        <label for="light-skin">Fair</label>
+        <input type="radio" id="light-skin" name="skin-color" value="light">
+        <label for="medium-skin">Brown</label>
+        <input type="radio" id="medium-skin" name="skin-color" value="medium">
+        <label for="dark-skin">Black</label>
+        <input type="radio" id="dark-skin" name="skin-color" value="dark">
+        <br>
+        <br>
+
+        <label for="picture">Hair Colour: </label>
+        <label for="Hlight-skin">Black</label>
+        <input type="radio" id="Hlight-skin" name="skin-color" value="light">
+        <label for="Hmedium-skin">Brown</label>
+        <input type="radio" id="Hmedium-skin" name="skin-color" value="medium">
+        <label for="Hdark-skin">Other</label>
+        <input type="radio" id="Hdark-skin" name="skin-color" value="dark">
+        <br>
+        <br>
+
+        <label >Gender:</label>
+        <input type="radio" id="gender-male" name="gender" value="male">
+        <label for="gender-male">Male</label>
+        <input type="radio" id="gender-female" name="gender" value="female">
+        <label for="gender-female">Female</label><br>
+        <br>
+
+        <label for="registration-time">Registration Time:</label>
+        <input type="time" id="registration-time" name="registration-time"><br>
+        <br>
+        <label for="registration-week">Registration Week:</label>
+        <input type="week" id="registration-week" name="registration-week"><br>
+        <br>
+        <label for="picture">Shif Of Working : </label>
+        <label for="Mlight-skin"> 10:00AM </label>
+        <input type="radio" id="Mlight-skin" name="skin-color" value="light">
+        <label for="Amedium-skin"> 12:00PM </label>
+        <input type="radio" id="Amedium-skin" name="skin-color" value="medium">
+        <label for="Ndark-skin"> 3:00PM </label>
+        <input type="radio" id="Ndark-skin" name="skin-color" value="dark">
+        <br>
+        <br>
+        <label for="languages">Languages:</label>
+        <select id="languages" name="languages" multiple>
+
+          <option value="english">English</option>
+          <option value="french">Sinhala</option>
+          <option value="spanish">Tamil</option>
+         
+        </select><br>
+        <br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea><br>
+        <br>
+        <label for="skill1">Your Skills with Java</label>
+    <input type="range" id="skill1" name="skill1" min="0" max="100" step="1"><br>
+    <br>
+    <label for="marks">Your Marks For Maths :</label>
+        <input type="range" id="marks" name="address"><br>
+        <br>
+        <label for="link-input">GitHub URL : </label>
+    <input type="url" id="link-input" name="link-input"><br>
+    <br>
+    <label for="Conditions"> Accept The Conditions </label>
+        <input type="checkbox" id="Conditions" name="skin-color" value="light">
+        <br>
+      </fieldset>
+
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>
